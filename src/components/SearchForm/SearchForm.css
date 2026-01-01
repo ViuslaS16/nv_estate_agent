@@ -1,0 +1,226 @@
+/**
+ * SearchForm Component Styles.
+ */
+
+.searchForm {
+    background-color: var(--color-white);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-6);
+    box-shadow: var(--shadow-md);
+    margin-bottom: var(--spacing-8);
+}
+
+.searchFormTitle {
+    color: var(--color-gray-900);
+    margin-bottom: var(--spacing-6);
+    text-align: center;
+}
+
+.searchFormErrors {
+    background-color: #fef2f2;
+    border: 1px solid var(--color-error);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-4);
+    margin-bottom: var(--spacing-4);
+}
+
+.searchFormError {
+    color: var(--color-error);
+    margin: 0;
+    font-size: var(--font-size-sm);
+}
+
+.searchFormGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-4);
+    margin-bottom: var(--spacing-6);
+}
+
+.priceInputs {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+}
+
+.priceInputWrapper {
+    position: relative;
+    flex: 1;
+}
+
+.pricePrefix {
+    position: absolute;
+    left: var(--spacing-3);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-gray-500);
+    font-weight: var(--font-weight-medium);
+}
+
+.priceInput {
+    padding-left: var(--spacing-12) !important;
+}
+
+.priceSeparator,
+.bedroomSeparator,
+.dateSeparator {
+    color: var(--color-gray-500);
+    font-size: var(--font-size-sm);
+    flex-shrink: 0;
+}
+
+
+.bedroomSelects {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+}
+
+.bedroomSelects>div {
+    flex: 1;
+}
+
+.dateModeToggle {
+    display: flex;
+    gap: var(--spacing-2);
+    margin-bottom: var(--spacing-3);
+}
+
+.dateModeBtn {
+    flex: 1;
+    padding: var(--spacing-2) var(--spacing-4);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-gray-600);
+    background-color: var(--color-gray-100);
+    border: 2px solid transparent;
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.dateModeBtn:hover {
+    background-color: var(--color-gray-200);
+}
+
+.dateModeBtn.active {
+    background-color: var(--color-primary-light);
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.dateInputs {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+}
+
+.dateInputs .react-datepicker-wrapper {
+    flex: 1;
+}
+
+.dateInputs .formInput {
+    width: 100%;
+}
+
+.formHint {
+    display: block;
+    margin-top: var(--spacing-1);
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-500);
+}
+
+.searchFormActions {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-3);
+}
+
+.searchBtn {
+    padding: var(--spacing-4) var(--spacing-6);
+    font-size: var(--font-size-base);
+}
+
+.searchIcon {
+    width: 20px;
+    height: 20px;
+}
+
+/* React DatePicker overrides */
+.react-datepicker__input-container input {
+    width: 100%;
+}
+
+.react-datepicker {
+    font-family: var(--font-family);
+    border: 1px solid var(--color-gray-200);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+}
+
+.react-datepicker__header {
+    background-color: var(--color-primary);
+    border-bottom: none;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    padding-top: var(--spacing-3);
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name {
+    color: var(--color-white);
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+    background-color: var(--color-primary);
+    border-radius: var(--radius-full);
+}
+
+.react-datepicker__day:hover {
+    background-color: var(--color-primary-light);
+    border-radius: var(--radius-full);
+}
+
+/* Tablet mode */
+@media (min-width: 768px) {
+    .searchFormGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .formGroupPrice,
+    .formGroupDate {
+        grid-column: span 2;
+    }
+
+    .searchFormActions {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .searchBtn {
+        min-width: 200px;
+    }
+}
+
+/* Desktop mode */
+@media (min-width: 1024px) {
+    .searchForm {
+        padding: var(--spacing-8);
+    }
+
+    .searchFormGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .formGroupPrice {
+        grid-column: span 2;
+    }
+
+    .formGroupDate {
+        grid-column: span 2;
+    }
+
+    .formGroupBedrooms {
+        grid-column: span 1;
+    }
+}
