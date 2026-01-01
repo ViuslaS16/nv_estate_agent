@@ -1,0 +1,176 @@
+[
+    {
+        "id": "prop_001",
+        "type": "house",
+        "price": 85000000,
+        "bedrooms": 4,
+        "dateAdded": "2025-07-15",
+        "postcode": "COLOMBO",
+        "location": "45 Galle Road, Colombo 03, Sri Lanka",
+        "description": "Stunning 4-bedroom colonial-style family home with modern amenities in the heart of Colombo.",
+        "longDescription": "This magnificent colonial-style house offers the perfect blend of heritage charm and contemporary living. The property featureshigh ceilings, original wooden beams, and beautiful verandahs that flood the rooms with natural light.\n\nThe ground floor comprises a spacious entrance hallway, an elegant living room with traditional design, a separate dining room perfect for entertaining, and a modern fitted kitchen with integrated appliances leading to a covered patio.\n\nUpstairs you will find four generous double bedrooms, including a master suite with en-suite bathroom, plus a family bathroom with both bath and shower. The property also benefits from servant quarters and ample storage.\n\nOutside, the property boasts a landscaped tropical garden with coconut palms, a covered car porch for two vehicles, and 24-hour security.",
+        "images": [
+            "/images/properties/prop001_living.png",
+            "/images/properties/prop001_kitchen.png",
+            "/images/properties/prop001_garden.png",
+            "/images/properties/prop001_bedroom.png",
+            "/images/properties/prop001_bathroom.png"
+        ],
+        "thumbnail": "/images/properties/prop001_exterior.png",
+        "floorplan": "/images/properties/floorplan_house.png",
+        "coordinates": {
+            "lat": 6.9271,
+            "lng": 79.8612
+        }
+    },
+    
+    {
+        "id": "prop_002",
+        "type": "flat",
+        "price": 45000000,
+        "bedrooms": 2,
+        "dateAdded": "2025-08-22",
+        "postcode": "COLOMBO",
+        "location": "Apartment 12, Ocean View Tower, Marine Drive, Colombo 03, Sri Lanka",
+        "description": "Contemporary 2-bedroom apartment in prestigious Colombo location with stunning ocean views.",
+        "longDescription": "An exceptional opportunity to acquire this beautifully presented two-bedroom apartment situated in one of Colombo's most desirable developments. The property offers modern, open-plan living with floor-to-ceiling windows showcasing panoramic views across the Indian Ocean.\n\nThe apartment features a stunning open-plan living, dining, and kitchen area with premium fitted appliances, granite worktops, and a breakfast bar. The space is filled with natural light and opens onto a private balcony perfect for watching sunsets.\n\nBoth bedrooms are generously sized doubles with built-in wardrobes. The master bedroom benefits from an en-suite shower room, while the main bathroom features modern fixtures.\n\nResidents enjoy access to a 24-hour security, swimming pool, gym, and beautifully maintained communal gardens. Walking distance to Galle Face Green.",
+        "images": [
+            "/images/properties/prop002_living.png",
+            "/images/properties/prop002_kitchen.png",
+            "/images/properties/prop002_garden.png",
+            "/images/properties/prop002_bedroom.png",
+            "/images/properties/prop002_bathroom.png"
+        ],
+        "thumbnail": "/images/properties/prop002_exterior.png",
+        "floorplan": "/images/properties/floorplan_flat.png",
+        "coordinates": {
+            "lat": 6.9344,
+            "lng": 79.8428
+        }
+    },
+
+    {
+        "id": "prop-003",
+        "type": "house",
+        "price": 120000000,
+        "bedrooms": 5,
+        "dateAdded": "2025-09-10",
+        "postcode": "KANDY",
+        "location": "23 Temple Road, Kandy, Sri Lanka",
+        "description": "Elegant 5-bedroom hillside mansion in historic Kandy with panoramic mountain views.",
+        "longDescription": "A rare opportunity to acquire this magnificent hillside mansion located in one of Sri Lanka's most prestigious addresses overlooking the Kandy Lake. This exceptional property has been meticulously maintained to preserve its colonial grandeur while incorporating modern luxuries.\n\nSpread over three floors, the property offers generous entertaining space including a double reception room with traditional fireplaces, a formal dining room, and a stunning kitchen/family room with garden access.\n\nThe upper floors provide five beautifully appointed bedrooms, including a spectacular master suite with dressing room and en-suite bathroom. Additional features include a study, wine cellar, and servant quarters.\n\nThe private landscaped garden features tropical plants, a swimming pool, and stunning views of the surrounding mountains and the Temple of the Sacred Tooth.",
+        "images": [
+            "/images/properties/prop003_living.png",
+            "/images/properties/prop003_kitchen.png",
+            "/images/properties/prop003_garden.png",
+            "/images/properties/prop003_bedroom.png",
+            "/images/properties/prop003_bathroom.png"
+        ],
+        "thumbnail": "/images/properties/prop003_exterior.png",
+        "floorPlan": "/images/properties/floorplan_house.png",
+        "coordinates": {
+            "lat": 7.2906,
+            "lng": 80.6337
+        }
+    },
+
+    {
+        "id": "prop-004",
+        "type": "bungalow",
+        "price": 55000000,
+        "bedrooms": 3,
+        "dateAdded": "2025-10-05",
+        "postcode": "GALLE",
+        "location": "7 Beach Road, Unawatuna, Galle, Sri Lanka",
+        "description": "Spacious 3-bedroom beachside bungalow with tropical garden near Unawatuna Beach.",
+        "longDescription": "This delightful beachside bungalow offers the perfect opportunity for those seeking coastal living in a peaceful area. The property has been well-maintained and benefits from excellent natural light and ocean breezes throughout.\n\nThe accommodation comprises a welcoming entrance hall, a bright living room with ceiling fans, a separate dining room, and a modern fitted kitchen. There is also a useful utility room and a covered verandah overlooking the tropical garden.\n\nThree good-sized bedrooms are serviced by a modern family bathroom. The master bedroom features built-in wardrobes and has potential for an en-suite subject to necessary permissions.\n\nOutside, the property stands on a generous plot with a paved driveway providing off-street parking, a beautiful landscaped tropical garden with coconut palms, and is just a 5-minute walk to Unawatuna Beach.",
+        "images": [
+            "/images/properties/prop004_living.png",
+            "/images/properties/prop004_kitchen.png",
+            "/images/properties/prop004_garden.png",
+            "/images/properties/prop004_bedroom.png",
+            "/images/properties/prop004_bathroom.png"
+        ],
+        "thumbnail": "/images/properties/prop004_exterior.png",
+        "floorPlan": "/images/properties/floorplan_house.png",
+        "coordinates": {
+            "lat": 6.0174,
+            "lng": 80.2493
+        }
+    },
+
+    {
+        "id": "prop-005",
+        "type": "flat",
+        "price": 75000000,
+        "bedrooms": 1,
+        "dateAdded": "2025-11-18",
+        "postcode": "COLOMBO",
+        "location": "Penthouse Suite, Altair Tower, 64 Galle Road, Colombo 03, Sri Lanka",
+        "description": "Luxurious 1-bedroom penthouse with panoramic Colombo views and private terrace.",
+        "longDescription": "Experience the pinnacle of city living in this exceptional penthouse apartment situated on the top floor of Colombo's most iconic residential tower. The property offers unrivalled views across the city, the ocean, and the Beira Lake.\n\nThe apartment has been finished to the highest specification throughout. The open-plan living space features full-height glazing, allowing you to enjoy spectacular views from every angle. The bespoke kitchen is equipped with top-of-the-range appliances and granite worktops.\n\nThe generous bedroom suite includes floor-to-ceiling windows, a walk-in wardrobe, and a luxurious en-suite bathroom with premium fittings. A separate guest washroom adds convenience.\n\nExclusive to penthouse residents is access to a private rooftop terrace offering 360-degree views of Colombo's skyline - perfect for entertaining. Building amenities include 24-hour security, infinity pool, gym, and spa.",
+        "images": [
+            "/images/properties/shared_living.png",
+            "/images/properties/shared_kitchen.png",
+            "/images/properties/shared_garden.png",
+            "/images/properties/shared_bedroom.png",
+            "/images/properties/shared_bathroom.png"
+        ],
+        "thumbnail": "/images/properties/prop005_exterior.png",
+        "floorPlan": "/images/properties/floorplan_flat.png",
+        "coordinates": {
+            "lat": 6.9147,
+            "lng": 79.8485
+        }
+    },
+
+    {
+        "id": "prop-006",
+        "type": "house",
+        "price": 28000000,
+        "bedrooms": 2,
+        "dateAdded": "2025-12-01",
+        "postcode": "NEGOMBO",
+        "location": "18 Lewis Place, Negombo, Sri Lanka",
+        "description": "Charming 2-bedroom beach cottage near Negombo lagoon with tropical garden.",
+        "longDescription": "A delightful beach cottage situated in a quiet residential street within walking distance of Negombo Beach and the famous fish market. This character property offers an excellent opportunity for first-time buyers or investors.\n\nThe ground floor features a cozy living room with ceiling fans, leading through to a modern kitchen/diner with access to the covered back porch. The kitchen is well-equipped with modern appliances and plenty of storage.\n\nUpstairs, two double bedrooms are serviced by a contemporary bathroom suite. The master bedroom overlooks the garden and benefits from built-in storage.\n\nOutside, the low-maintenance tropical garden is perfect for relaxing or entertaining and includes a storage shed. Negombo town center and the lagoon are both within a 10-minute walk.",
+        "images": [
+            "/images/properties/shared_living.png",
+            "/images/properties/shared_kitchen.png",
+            "/images/properties/shared_garden.png",
+            "/images/properties/shared_bedroom.png",
+            "/images/properties/shared_bathroom.png"
+        ],
+        "thumbnail": "/images/properties/prop006_exterior.png",
+        "floorPlan": "/images/properties/floorplan_house.png",
+        "coordinates": {
+            "lat": 7.2083,
+            "lng": 79.8358
+        }
+    },
+
+    {
+        "id": "prop-007",
+        "type": "flat",
+        "price": 22000000,
+        "bedrooms": 2,
+        "dateAdded": "2025-12-20",
+        "postcode": "NUGEGODA",
+        "location": "Garden Apartment, 156 High Level Road, Nugegoda, Sri Lanka",
+        "description": "Stylish 2-bedroom ground floor apartment with private garden in Nugegoda.",
+        "longDescription": "An attractive two-bedroom ground floor apartment in a well-maintained residential building in convenient Nugegoda. The property combines modern amenities with comfortable living at an accessible price point.\n\nThe apartment benefits from its own private entrance and comprises a generous reception room with ceiling fans, a well-fitted kitchen with modern appliances, and two double bedrooms. The contemporary bathroom features a walk-in shower and modern fixtures.\n\nA particular highlight is the private garden, accessed through sliding doors from the reception room. This enclosed outdoor space is perfect for morning tea or evening relaxation.\n\nThe location is excellent, with supermarkets, banks, and restaurants all within walking distance. Nugegoda junction with bus connections to Colombo is just a 5-minute walk away. A fantastic opportunity at this price point.",
+        "images": [
+            "/images/properties/shared_living.png",
+            "/images/properties/shared_kitchen.png",
+            "/images/properties/shared_garden.png",
+            "/images/properties/shared_bedroom.png",
+            "/images/properties/shared_bathroom.png"
+        ],
+        "thumbnail": "/images/properties/prop007_exterior.png",
+        "floorPlan": "/images/properties/floorplan_flat.png",
+        "coordinates": {
+            "lat": 6.8723,
+            "lng": 79.8948
+        }
+    }
+]
