@@ -1,0 +1,123 @@
+/**
+ * Header Component Styles
+ */
+
+.header {
+    background-color: var(--color-white);
+    box-shadow: var(--shadow-md);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--header-height);
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    color: var(--color-primary);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-xl);
+    text-decoration: none;
+    transition: opacity var(--transition-fast);
+}
+
+.headerLogo:hover {
+    opacity: 0.8;
+    color: var(--color-primary);
+}
+
+.headerLogoIcon {
+    width: 100px;
+    height: 100px;
+}
+
+.headerLogoText {
+    display: none;
+}
+
+/* Navigation */
+.headerNav {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+}
+
+.headerNavLink {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    padding: var(--spacing-2) var(--spacing-3);
+    color: var(--color-gray-700);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-fast);
+    text-decoration: none;
+}
+
+.headerNavLink:hover {
+    background-color: var(--color-gray-100);
+    color: var(--color-primary);
+}
+
+/* Heart icon for favourites */
+.headerHeartIcon{
+    width: 18px;
+    height: 18px;
+    color: var(--color-favourite);
+}
+
+.headerFavourites{
+    position: relative;
+}
+
+/* Favourites badge */
+.headerFavouritesBadge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 var(--spacing-1);
+    background-color: var(--color-favourite);
+    color: var(--color-white);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-bold);
+    border-radius: var(--radius-full);
+    margin-left: var(--spacing-1);
+}
+
+/* Tablet mode */
+@media (min-width: 768px) {
+    .headerLogoText{
+        display: block;
+    }
+
+    .headerNav {
+        gap: var(--spacing-4);
+    }
+
+    .headerNavLink {
+        padding: var(--spacing-2) var(--spacing-4);
+        font-size: var(--font-size-base);
+    }
+}
+
+/* Desktop mode*/
+@media (min-width: 1024px) {
+    .headerLogoIcon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .headerLogo {
+        font-size: var(--font-size-2xl);
+    }
+}
