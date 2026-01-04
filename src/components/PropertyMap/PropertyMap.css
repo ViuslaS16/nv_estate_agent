@@ -1,0 +1,73 @@
+/* PropertyMap Component Styles */
+
+.mapFallback {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-gray-100) 100%);
+    border-radius: var(--radius-lg);
+}
+
+.mapFallbackContent {
+    text-align: center;
+    padding: var(--spacing-8);
+    max-width: 400px;
+}
+
+.mapFallbackIcon {
+    width: 64px;
+    height: 64px;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-4);
+}
+
+.mapFallbackContent h4 {
+    color: var(--color-gray-800);
+    margin-bottom: var(--spacing-2);
+}
+
+.mapFallbackContent p {
+    color: var(--color-gray-600);
+    margin-bottom: var(--spacing-3);
+}
+
+.mapCoords {
+    font-family: monospace;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-500);
+}
+
+.mapExternalLink {
+    margin-top: var(--spacing-4);
+    margin-bottom: var(--spacing-4);
+}
+
+.mapNote {
+    color: var(--color-gray-400);
+}
+
+.mapNote small {
+    font-size: var(--font-size-xs);
+}
+
+.mapInfoWindow {
+    padding: var(--spacing-2);
+    min-width: 200px;
+}
+
+.infoAddress {
+    margin: 0 0 var(--spacing-2);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-gray-800);
+    font-size: var(--font-size-sm);
+}
+
+.infoLink {
+    font-size: var(--font-size-sm);
+    color: var(--color-primary);
+}
+
+.infoLink:hover {
+    text-decoration: underline;
+}
