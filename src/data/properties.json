@@ -23,7 +23,6 @@
             "lng": 79.8612
         }
     },
-    
     {
         "id": "prop_002",
         "type": "flat",
@@ -37,7 +36,7 @@
         "images": [
             "/images/properties/prop002_living.png",
             "/images/properties/prop002_kitchen.png",
-            "/images/properties/prop002_garden.png",
+            "/images/properties/prop002_balcony.png",
             "/images/properties/prop002_bedroom.png",
             "/images/properties/prop002_bathroom.png"
         ],
@@ -48,7 +47,6 @@
             "lng": 79.8428
         }
     },
-
     {
         "id": "prop-003",
         "type": "house",
@@ -73,7 +71,6 @@
             "lng": 80.6337
         }
     },
-
     {
         "id": "prop-004",
         "type": "bungalow",
@@ -87,7 +84,7 @@
         "images": [
             "/images/properties/prop004_living.png",
             "/images/properties/prop004_kitchen.png",
-            "/images/properties/prop004_garden.png",
+            "/images/properties/shared_garden.png",
             "/images/properties/prop004_bedroom.png",
             "/images/properties/prop004_bathroom.png"
         ],
@@ -98,7 +95,6 @@
             "lng": 80.2493
         }
     },
-
     {
         "id": "prop-005",
         "type": "flat",
@@ -123,7 +119,6 @@
             "lng": 79.8485
         }
     },
-
     {
         "id": "prop-006",
         "type": "house",
@@ -148,7 +143,6 @@
             "lng": 79.8358
         }
     },
-
     {
         "id": "prop-007",
         "type": "flat",

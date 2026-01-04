@@ -17,7 +17,7 @@
     color: var(--color-gray-300);
     padding: var(--spacing-6) 0;
     text-align: center;
-    margin-top: auto;
+    margin-top: var(--spacing-8);
 }
 
 .footer p {

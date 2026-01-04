@@ -58,7 +58,7 @@
 }
 
 .priceInput {
-    padding-left: var(--spacing-12) !important;
+    padding-left: 50px !important;
 }
 
 .priceSeparator,

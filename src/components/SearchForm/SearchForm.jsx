@@ -5,9 +5,7 @@ import { validateSearchCriteria } from '../../utils/searchHelpers';
 import 'react-datepicker/dist/react-datepicker.css';
 import './SearchForm.css';
 
-/**
- * Property type for dropdown.
- */
+/* Property type for dropdown. */
 const propertyTypeOptions = [
     { value: 'any', label: 'Any Type' },
     { value: 'house', label: 'House' },
@@ -15,9 +13,7 @@ const propertyTypeOptions = [
     { value: 'bungalow', label: 'Bungalow' }
 ];
 
-/**
- * Bedroom option for dropdown.
- */
+/* Bedroom option for dropdown. */
 const bedroomOptions = [
     { value: '', label: 'No min' },
     { value: '1', label: '1+' },
@@ -36,10 +32,6 @@ const maxBedroomOptions = [
     { value: '5', label: '5' }
 ];
 
-/**
- * SearchForm Component search form for filtering properties.
- * @param {Function} onSearch
- */
 function SearchForm({ onSearch }) {
     const [propertyType, setPropertyType] = useState(propertyTypeOptions[0]);
     const [minPrice, setMinPrice] = useState('');
@@ -124,7 +116,6 @@ function SearchForm({ onSearch }) {
                         options={propertyTypeOptions}
                         value={propertyType}
                         onChange={setPropertyType}
-                        styles={selectStyles}
                         isSearchable={false}
                         aria-label="Select property type"
                     />
@@ -168,7 +159,6 @@ function SearchForm({ onSearch }) {
                             options={bedroomOptions}
                             value={minBedrooms}
                             onChange={setMinBedrooms}
-                            styles={selectStyles}
                             isSearchable={false}
                             placeholder="Min"
                             aria-label="Minimum bedrooms"
@@ -178,7 +168,6 @@ function SearchForm({ onSearch }) {
                             options={maxBedroomOptions}
                             value={maxBedrooms}
                             onChange={setMaxBedrooms}
-                            styles={selectStyles}
                             isSearchable={false}
                             placeholder="Max"
                             aria-label="Maximum bedrooms"
@@ -222,7 +211,7 @@ function SearchForm({ onSearch }) {
                                     onChange={setDateFrom}
                                     dateFormat="dd/MM/yyyy"
                                     placeholderText="From"
-                                    className="form-input"
+                                    className="formInput"
                                     selectsStart
                                     startDate={dateFrom}
                                     endDate={dateTo}
@@ -235,7 +224,7 @@ function SearchForm({ onSearch }) {
                                     onChange={setDateTo}
                                     dateFormat="dd/MM/yyyy"
                                     placeholderText="To"
-                                    className="form-input"
+                                    className="formInput"
                                     selectsEnd
                                     startDate={dateFrom}
                                     endDate={dateTo}

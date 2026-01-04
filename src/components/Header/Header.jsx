@@ -4,14 +4,14 @@ import './Header.css';
 
 // Header commponent for navigation.
 function Header() {
-    const { favourites } = useFavourites();
-    
+    const { favourites, favouriteCount } = useFavourites();
+
     return (
         <header className="header">
             <div className="container headerContainer">
                 <Link to="/" className="headerLogo">
-                <img src="/images/nv_logo.png" alt="NV Estate Agents Logo" className="headerLogoIcon" />
-                <span className="headerLogoText">NV Estate Agents</span>
+                    <img src="/images/nv_logo.png" alt="NV Estate Agents Logo" className="headerLogoIcon" />
+                    <span className="headerLogoText">NV Estate Agents</span>
                 </Link>
 
                 <nav className="headerNav" aria-label="Main Navigation">
@@ -23,10 +23,10 @@ function Header() {
                             <span className="headerFavouriteBadge" aria-label={`${favouriteCount} favourites`}>
                                 {favouriteCount}
                             </span>
-                     )}
+                        )}
                     </Link>
                 </nav>
-            </div>  
+            </div>
         </header>
     );
 }

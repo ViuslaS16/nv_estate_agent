@@ -140,7 +140,7 @@
 }
 
 .propertyCardFavBtn:hover:not(:disabled) .heartIcon {
-    fill: var(--color-white);
+    filter: brightness(0) invert(1);
 }
 
 .propertyCardFavBtn.active {
@@ -150,7 +150,7 @@
 }
 
 .propertyCardFavBtn.active .heartIcon {
-    fill: var(--color-white);
+    filter: brightness(0) invert(1);
 }
 
 .heartIcon {
