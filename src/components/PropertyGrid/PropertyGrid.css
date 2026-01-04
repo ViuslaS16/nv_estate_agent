@@ -1,0 +1,89 @@
+/* PropertyGrid Component Styles. */
+
+.propertyGridSection {
+    flex: 1;
+}
+
+.propertyGridHeader {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2);
+    margin-bottom: var(--spacing-6);
+}
+
+.propertyGridTitle {
+    margin: 0;
+    color: var(--color-gray-900);
+}
+
+.propertyGridHint {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    margin: 0;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-500);
+}
+
+.hintIcon {
+    font-size: var(--font-size-base);
+}
+
+.propertyGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-6);
+}
+
+.propertyGridEmpty {
+    text-align: center;
+    padding: var(--spacing-16) var(--spacing-6);
+    background-color: var(--color-white);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+}
+
+.emptyIcon {
+    font-size: 4rem;
+    margin-bottom: var(--spacing-4);
+}
+
+.propertyGridEmpty h3 {
+    color: var(--color-gray-800);
+    margin-bottom: var(--spacing-2);
+}
+
+.propertyGridEmpty p {
+    color: var(--color-gray-600);
+    margin: 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Tablet mode */
+@media (min-width: 768px) {
+    .propertyGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .propertyGridHeader {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* Desktop mode */
+@media (min-width: 1024px) {
+    .propertyGrid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--spacing-8);
+    }
+}
+
+/* Large Desktop size */
+@media (min-width: 1280px) {
+    .propertyGrid {
+        gap: var(--spacing-8);
+    }
+}

@@ -123,3 +123,183 @@ h1 {
   margin-bottom: var(--spacing-6);
 }
 
+/* Container Styles */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-4);
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-2);
+  padding: var(--spacing-3) var(--spacing-6);
+  font-family: var(--font-family);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  line-height: 1;
+  border: none;
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btnPrimary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btnPrimary:hover:not(:disabled) {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.btnSecondary {
+  background-color: var(--color-gray-200);
+  color: var(--color-gray-700);
+}
+
+.btnSecondary:hover:not(:disabled) {
+  background-color: var(--color-gray-300);
+}
+
+.btnOutline {
+  background-color: transparent;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btnOutline:hover:not(:disabled) {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btnIcon {
+  padding: var(--spacing-2);
+  border-radius: var(--radius-full);
+}
+
+/* Form Styles */
+.formGroup {
+  margin-bottom: var(--spacing-4);
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: var(--spacing-2);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-gray-700);
+}
+
+.formInput {
+  width: 100%;
+  padding: var(--spacing-3);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-800);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--radius-lg);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+.formInput::placeholder {
+  color: var(--color-gray-400);
+}
+
+/* Card Styles */
+.card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Price Tag Styling */
+.price {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+}
+
+.priceLarge {
+  font-size: var(--font-size-2xl);
+}
+
+/* Badge Styles */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--spacing-1) var(--spacing-2);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badgePrimary {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.badgeSecondary {
+  background-color: var(--color-gray-100);
+  color: var(--color-gray-600);
+}
+
+/* Responsive Breakpoints */
+
+/* Tablet Modes */
+@media (min-width: 768px) {
+  h1 {
+    font-size: var(--font-size-4xl);
+  }
+
+  .container {
+    padding: 0 var(--spacing-6);
+  }
+}
+
+/* Desktop Modes */
+@media (min-width: 1024px) {
+  :root {
+    --header-height: 80px;
+  }
+}
+
