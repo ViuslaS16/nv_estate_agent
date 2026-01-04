@@ -1,0 +1,55 @@
+/* Notification Toast Styles */
+
+.notification {
+    position: fixed;
+    bottom: var(--spacing-6);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    padding: var(--spacing-3) var(--spacing-5);
+    background-color: var(--color-gray-800);
+    color: var(--color-white);
+    border-radius: var(--radius-full);
+    box-shadow: var(--shadow-lg);
+    z-index: 1000;
+    animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateX(-50%) translateY(100%);
+        opacity: 0;
+    } to {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+    }
+}
+
+.notificationSuccess {
+    background-color: var(--color-success);
+}
+
+.notificationWarning {
+    background-color: var(--color-warning);
+    color: var(--color-gray-900);
+}
+
+.notificationError {
+    background-color: var(--color-error);
+}
+
+.notificationIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    font-weight: var(--font-weight-bold);
+}
+
+.notificationMessage {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+}
