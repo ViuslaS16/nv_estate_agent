@@ -1,0 +1,9 @@
+This application is on:
+
+        -GitHub: "https://github.com/ViuslaS16/nv_estate_agent.git"
+        -Netlify: "https://nvestate.netlify.app/#/"
+
+Visula Sithum Siriwardana 
+Module: 5COSC026W Advanced Client-Side Web Development  
+Academic Year: 2025/26
+University of Westminster Student

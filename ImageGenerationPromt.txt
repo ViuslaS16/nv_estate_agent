@@ -1,0 +1,272 @@
+# Property Image Generation Prompts
+
+
+## Property 001 - Colombo Colonial House
+**Location:** 45 Galle Road, Colombo 03, Sri Lanka
+### Exterior (`prop001_exterior.png`)
+```
+A stunning colonial-style 4-bedroom family home in Colombo, Sri Lanka. The house features 
+traditional colonial architecture with high ceilings, white-washed walls, terracotta roof 
+tiles, beautiful verandahs with ornate columns, and lush tropical landscaping with coconut 
+palms. The property has a covered car porch and well-maintained tropical garden. Bright 
+sunny day, professional real estate photography style.
+```
+### Living Room (`prop001_living.png`)
+```
+Elegant colonial-style living room interior in a Sri Lankan home. Features high ceilings 
+with traditional wooden beams, ceiling fans, polished wooden floors, comfortable seating 
+with tropical-themed upholstery, large windows with natural light flooding in, antique 
+furniture pieces, and traditional Sri Lankan decorative elements. Warm and inviting 
+atmosphere, professional interior photography.
+```
+### Kitchen (`prop001_kitchen.png`)
+```
+Modern fitted kitchen in a colonial Sri Lankan home. The kitchen features integrated 
+appliances, granite countertops, traditional wooden cabinetry, a breakfast bar, and 
+large windows overlooking a tropical garden. Blend of modern amenities with colonial 
+charm, bright and airy, professional real estate photography.
+```
+### Bedroom (`prop001_bedroom.png`)
+```
+Master bedroom suite in a colonial Sri Lankan house. Features a spacious double bed 
+with elegant bedding, high ceilings with ceiling fan, large windows with natural light, 
+traditional wooden furniture, en-suite bathroom visible through an archway, and tropical 
+views. Luxurious yet comfortable atmosphere, professional interior photography.
+```
+### Bathroom (`prop001_bathroom.png`)
+```
+Modern bathroom in a colonial Sri Lankan home. Features both a bathtub and walk-in 
+shower, premium fixtures, marble or granite surfaces, large windows for natural light, 
+and a blend of traditional and contemporary design elements. Clean, spa-like atmosphere, 
+professional real estate photography.
+```
+### Garden (`prop001_garden.png`)
+```
+Lush tropical garden of a colonial Sri Lankan home. Features landscaped grounds with 
+coconut palms, exotic tropical plants, flowering bushes, a covered patio area for 
+outdoor dining, manicured lawn, and views of the colonial house in the background. 
+Bright sunny day, professional real estate photography.
+```
+---------------------------------------------------------------------------------------
+
+## Property 002 - Ocean View Apartment
+**Location:** Apartment 12, Ocean View Tower, Marine Drive, Colombo 03, Sri Lanka
+### Exterior (`prop002_exterior.png`)
+```
+Modern luxury high-rise apartment building in Colombo, Sri Lanka overlooking the Indian 
+Ocean. Contemporary glass and steel architecture, multiple floors with floor-to-ceiling 
+windows, balconies on each floor, palm trees at the entrance, well-maintained communal 
+gardens, swimming pool visible. Evening golden hour lighting, professional architectural 
+photography.
+```
+### Living Room (`prop002_living.png`)
+```
+Contemporary open-plan living and dining area in a luxury Colombo apartment. Features 
+floor-to-ceiling windows with panoramic ocean views, modern minimalist furniture, 
+neutral color palette with accent colors, L-shaped sofa, elegant dining table, 
+hardwood floors, and natural light flooding the space. Stylish and sophisticated, 
+professional interior photography.
+```
+### Kitchen (`prop002_kitchen.png`)
+```
+Modern open-plan kitchen in a luxury Colombo apartment. Features premium fitted 
+appliances, granite worktops, contemporary cabinetry in neutral tones, a breakfast 
+bar with stylish stools, integrated lighting, and seamless connection to the living 
+area. Clean lines, minimalist design, professional real estate photography.
+```
+### Bedroom (`prop002_bedroom.png`)
+```
+Modern master bedroom in a luxury Colombo apartment. Features a king-size bed with 
+contemporary bedding, floor-to-ceiling windows with ocean views, built-in wardrobes, 
+minimalist design aesthetic, neutral color scheme with soft accent lighting, and 
+en-suite bathroom visible. Elegant and serene atmosphere, professional interior 
+photography.
+```
+### Bathroom (`prop002_bathroom.png`)
+```
+Contemporary bathroom in a luxury Colombo apartment. Features modern fixtures, 
+walk-in shower with glass enclosure, floating vanity with dual sinks, large mirror, 
+neutral tile work, and premium finishes throughout. Clean, spa-inspired design, 
+professional real estate photography.
+```
+### Balcony (`prop002_balcony.png`)
+```
+Private balcony of a luxury Colombo apartment with stunning sunset ocean views. 
+Features comfortable outdoor furniture, potted tropical plants, glass railing for 
+unobstructed views, and the golden hour sun setting over the Indian Ocean. 
+Romantic and relaxing atmosphere, professional real estate photography.
+```
+
+---------------------------------------------------------------------------------------
+
+## Property 003 - Kandy Hillside Mansion
+**Location:** 23 Temple Road, Kandy, Sri Lanka
+### Exterior (`prop003_exterior.png`)
+```
+Magnificent hillside mansion overlooking Kandy Lake in Sri Lanka. Colonial architecture 
+with grand proportions, white-washed walls, multiple levels built into the hillside, 
+large verandahs and balconies, terracotta roof, surrounded by lush tropical vegetation, 
+with panoramic views of the surrounding mountains and the Temple of the Sacred Tooth. 
+Bright sunny day, professional architectural photography.
+```
+### Living Room (`prop003_living.png`)
+```
+Grand double reception room in a colonial Kandy mansion. Features traditional fireplaces, 
+high ornate ceilings, polished wooden floors, antique Sri Lankan furniture, large windows 
+with mountain views, elegant chandeliers, and rich warm color palette. Luxurious and 
+stately atmosphere, professional interior photography.
+```
+### Kitchen (`prop003_kitchen.png`)
+```
+Spacious kitchen and family room in a luxury Kandy mansion. Features high-end appliances, 
+custom wooden cabinetry, granite island with seating, doors leading to garden, blend of 
+traditional and modern design, natural light from multiple windows. Elegant country 
+kitchen feel, professional real estate photography.
+```
+### Bedroom (`prop003_bedroom.png`)
+```
+Spectacular master suite in a Kandy hillside mansion. Features a grand four-poster bed, 
+high ceilings with crown molding, large windows with mountain and lake views, dressing 
+room area visible, antique furniture, en-suite bathroom with premium fixtures. Royal and 
+luxurious atmosphere, professional interior photography.
+```
+### Bathroom (`prop003_bathroom.png`)
+```
+Luxury en-suite bathroom in a Kandy mansion. Features a freestanding bathtub near windows 
+with mountain views, separate walk-in shower, double vanity with marble tops, elegant 
+fixtures, and a blend of colonial and contemporary design. Spa-like luxury atmosphere, 
+professional real estate photography.
+```
+### Garden (`prop003_garden.png`)
+```
+Landscaped private garden of a Kandy hillside mansion. Features a swimming pool overlooking 
+the mountains, tropical plants and flowering gardens, covered outdoor dining area, manicured 
+lawns, and stunning views of Kandy Lake and the Temple of the Sacred Tooth in the distance. 
+Bright sunny day, professional landscape photography.
+```
+---------------------------------------------------------------------------------------
+
+## Property 004 - Galle Beach Bungalow
+**Location:** 7 Beach Road, Unawatuna, Galle, Sri Lanka
+### Exterior (`prop004_exterior.png`)
+```
+Charming beachside bungalow near Unawatuna Beach in Galle, Sri Lanka. Single-story 
+traditional Sri Lankan design, white-washed walls with terracotta roof, covered verandah 
+with colonial columns, tropical garden with coconut palms, paved driveway, and glimpses 
+of the ocean in the background. Bright tropical day, professional real estate photography.
+```
+### Living Room (`prop004_living.png`)
+```
+Bright and airy living room in a coastal Sri Lankan bungalow. Features high ceilings 
+with traditional ceiling fans, natural light from multiple windows, comfortable tropical-style 
+furniture, polished floors, and a relaxed beach house aesthetic. Ocean breezes atmosphere, 
+professional interior photography.
+```
+### Kitchen (`prop004_kitchen.png`)
+```
+Modern fitted kitchen in a coastal Sri Lankan bungalow. Features contemporary appliances, 
+light-colored cabinetry, breakfast counter, large windows with garden views, and a fresh 
+coastal color palette. Bright, functional design, professional real estate photography.
+```
+### Bedroom (`prop004_bedroom.png`)
+```
+Master bedroom in a coastal Sri Lankan bungalow. Features a comfortable double bed with 
+light tropical bedding, ceiling fan, built-in wardrobes, large windows with garden views, 
+and a relaxed beach cottage aesthetic. Bright and breezy atmosphere, professional interior 
+photography.
+```
+### Bathroom (`prop004_bathroom.png`)
+```
+Modern family bathroom in a coastal Sri Lankan bungalow. Features contemporary fixtures, 
+walk-in shower, vanity with mirror, neutral tile work, and natural light. Clean coastal 
+design, professional real estate photography.
+```
+---------------------------------------------------------------------------------------
+
+## Property 005 - Altair Penthouse
+**Location:** Penthouse Suite, Altair Tower, 64 Galle Road, Colombo 03, Sri Lanka
+### Exterior (`prop005_exterior.png`)
+```
+Iconic Altair Tower in Colombo, Sri Lanka - a striking contemporary high-rise with 
+unique twisted architectural design. Glass and steel facade, distinctive modern silhouette 
+against the Colombo skyline, palm trees at entrance, views of the city and Beira Lake. 
+Golden hour lighting, professional architectural photography.
+```
+---------------------------------------------------------------------------------------
+
+## Property 006 - Negombo Beach Cottage
+**Location:** 18 Lewis Place, Negombo, Sri Lanka
+### Exterior (`prop006_exterior.png`)
+```
+Charming 2-bedroom beach cottage in a quiet residential area of Negombo, Sri Lanka. 
+Traditional Sri Lankan cottage design, two-story with white-washed walls and terracotta 
+roof, small tropical garden with palm trees, covered back porch, within walking distance 
+of the beach. Warm tropical day, professional real estate photography.
+```
+---------------------------------------------------------------------------------------
+
+## Property 007 - Nugegoda Garden Apartment
+**Location:** Garden Apartment, 156 High Level Road, Nugegoda, Sri Lanka
+### Exterior (`prop007_exterior.png`)
+```
+Attractive residential apartment building in Nugegoda, Sri Lanka. Modern 3-4 story 
+building with contemporary design, well-maintained facade, ground floor garden apartments 
+with private entrances and enclosed gardens, landscaped common areas. Urban residential 
+setting, professional real estate photography.
+```
+---------------------------------------------------------------------------------------
+
+## Shared Interior Images
+These images are used across multiple properties (005, 006, 007):
+### Shared Living Room (`shared_living.png`)
+```
+Modern contemporary living room suitable for apartments and smaller homes in Sri Lanka. 
+Features comfortable modern furniture, neutral color palette, ceiling fans, good natural 
+light, contemporary artwork, and a warm inviting atmosphere. Versatile design that works 
+for different property types, professional interior photography.
+```
+### Shared Kitchen (`shared_kitchen.png`)
+```
+Well-fitted modern kitchen suitable for apartments and smaller homes in Sri Lanka. 
+Features contemporary cabinetry, integrated appliances, granite or quartz countertops, 
+good storage solutions, and natural lighting. Clean and functional design, professional 
+real estate photography.
+```
+### Shared Bedroom (`shared_bedroom.png`)
+```
+Modern bedroom suitable for apartments and smaller homes in Sri Lanka. Features a 
+comfortable double bed with contemporary bedding, ceiling fan, built-in storage, 
+good natural light, and neutral color scheme. Comfortable and versatile design, 
+professional interior photography.
+```
+### Shared Bathroom (`shared_bathroom.png`)
+```
+Contemporary bathroom suitable for apartments and smaller homes in Sri Lanka. Features 
+modern fixtures, walk-in shower, vanity with mirror, neutral tile work, and clean lines. 
+Fresh and modern design, professional real estate photography.
+```
+### Shared Garden (`shared_garden.png`)
+```
+Private tropical garden suitable for homes and ground-floor apartments in Sri Lanka. 
+Features lush tropical plants, flowering bushes, a small paved patio area for relaxation, 
+palm trees, and enclosed for privacy. Peaceful oasis atmosphere, professional landscape 
+photography.
+```
+---------------------------------------------------------------------------------------
+
+## Floor Plans
+### House Floor Plan (`floorplan_house.png`)
+```
+Professional architectural floor plan for a traditional Sri Lankan house. Shows layout 
+of bedrooms, living areas, kitchen, bathrooms, and outdoor spaces. Clean black and white 
+line drawing with room labels, dimensions, and furniture placement indicated. Standard 
+real estate floor plan format.
+```
+### Flat Floor Plan (`floorplan_flat.png`)
+```
+Professional architectural floor plan for a modern apartment/flat in Sri Lanka. Shows 
+layout of bedrooms, open-plan living/dining/kitchen area, bathrooms, and balcony. Clean 
+black and white line drawing with room labels, dimensions, and furniture placement 
+indicated. Standard real estate floor plan format.
+```
+---------------------------------------------------------------------------------------
